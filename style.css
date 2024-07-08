@@ -1,0 +1,46 @@
+* 
+
+{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: '', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  button, input[type="text"] {
+    padding: 7px;
+    background: skyblue;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  #shopping-list-item {
+    width: 250px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .shopping-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .shopping-list > li {
+    margin-bottom: 20px;
+    border: 1px solid rgb(212, 25, 25);
+    padding: 20px;
+  }
+  
+  .shopping-item {
+    display: block;
+    color: grey;
+    font-style: inherit;
+    font-size: auto;
+    margin-bottom: auto;
+  }

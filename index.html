@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shopping List</title>
+
+  <link rel="stylesheet" href="/style.css">
+  <link href="/bootstrap/css/bootstrap.min.css.map" rel="stylesheet">
+  
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+
+  <div class="container">
+    <h1>Shopping List</h1>
+
+    <form id="js-shopping-list-form">
+      <label for="shopping-list-entry">Add an item</label>
+      <input type="text" name="shopping-list-entry" id="shopping-list-entry">
+      <button type="submit">Add item</button>
+    </form>
+
+    <ul class="shopping-list">
+      <li>
+        <span class="shopping-item">Soap</span>
+        <div class="shopping-item-controls">
+          <button class="shopping-item-toggle">
+            <span class="button-label">mark</span>
+          </button>
+          <button class="shopping-item-delete">
+            <span class="button-label">delete</span>
+          </button>
+        </div>
+      </li>
+      <li>
+        <span class="shopping-item">Flour</span>
+        <div class="shopping-item-controls">
+          <button class="shopping-item-toggle">
+            <span class="button-label">mark</span>
+          </button>
+          <button class="shopping-item-delete">
+            <span class="button-label">delete</span>
+          </button>
+        </div>
+      </li>
+      <li>
+        <span class="shopping-item shopping-item__checked">milk</span>
+        <div class="shopping-item-controls">
+          <button class="shopping-item-toggle">
+            <span class="button-label">mark</span>
+          </button>
+          <button class="shopping-item-delete">
+            <span class="button-label">delete</span>
+          </button>
+        </div>
+      </li>
+      <li>
+        <span class="shopping-item">Biscuits</span>
+        <div class="shopping-item-controls">
+          <button class="shopping-item-toggle">
+            <span class="button-label">Mark</span>
+          </button>
+          <button class="shopping-item-delete">
+            <span class="button-label">delete</span>
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+<script src='index.js'></script>
+<script src="/bootstrap/js/bootstrap.js"> </script>
+</body>
+</html>
